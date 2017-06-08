@@ -1,0 +1,54 @@
+.messagearea {
+  background-image: url("../../portfolio/img/bg2.png");
+  text-align: center;
+}
+
+.messagebox {
+  width: 980px;
+  margin: 0 auto;
+  font-size: 0;
+
+  &__txt {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 430px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14.5px;
+  }
+
+  &__item {
+    width: 475px;
+    height: 490px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  &__item1 {
+    @extend .messagebox__item;
+    background-image: url("../../portfolio/img/about-message1.png");
+    background-repeat: no-repeat;
+    margin-right: 30px;
+  }
+
+  &__item2 {
+    @extend .messagebox__item;
+    background-image: url("../../portfolio/img/about-message2.png");
+    background-repeat: no-repeat;
+  }
+
+  &__item3 {
+    @extend .messagebox__item;
+    background-image: url("../../portfolio/img/about-message3.png");
+    background-repeat: no-repeat;
+    margin-right: 30px;
+  }
+
+  &__item4 {
+    @extend .messagebox__item;
+    background-image: url("../../portfolio/img/about-message4.png");
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,96 @@
+.alzfactorarea {
+  @include alzarea();
+  background-image: url("../../portfolio/img/cause-bg.png");
+  background-repeat: round;
+  padding-bottom: 150px;
+}
+
+.alzfactortitle {
+  @include alzttl();
+}
+
+.alzfactorarea__box {
+  margin: 0 auto;
+  width: 850px;
+
+  &__list {
+    background-image: url("../../portfolio/img/alz-process.png");
+    background-repeat: no-repeat;
+    height: 360px;
+    position: relative;
+  }
+
+  &__txt {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  &__txt2 {
+    @extend .alzfactorarea__box__txt;
+    top: 50px;
+    left: 210px;
+  }
+
+  &__txt3 {
+    @extend .alzfactorarea__box__txt;
+    top: 30px;
+    left: 362px;
+  }
+
+  &__txt4 {
+    @extend .alzfactorarea__box__txt;
+    top: 45px;
+    left: 555px;
+  }
+
+  &__txt5 {
+    @extend .alzfactorarea__box__txt;
+    top: 60px;
+    left: 745px;
+  }
+
+  &__txt6 {
+    @extend .alzfactorarea__box__txt;
+    top: 220px;
+    left: 725px;
+  }
+
+  &__txt7 {
+    @extend .alzfactorarea__box__txt;
+    top: 210px;
+    left: 550px;
+  }
+
+  &__txt8 {
+    position: absolute;
+    width: 510px;
+    top: 170px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+.alzabput {
+  background-image: url("../../portfolio/img/alz-about.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+
+  &__title {
+    color: $baseTextcolor;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  &__txt {
+    padding: 10px 30px;
+    line-height: 28px;
+    text-align: left;
+  }
+}

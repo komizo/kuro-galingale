@@ -1,0 +1,11 @@
+.pointarea {
+  background-image: url("../../portfolio/img/kg-point-bg.png");
+  background-repeat: round;
+  padding-bottom: 100px;
+  text-align: center;
+
+  &__img {
+    margin-top: -130px;
+    margin-bottom: 100px;
+  }
+}

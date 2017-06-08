@@ -1,0 +1,9 @@
+.alztypearea {
+  @include alzarea();
+}
+.alztypetitle {
+  @include alzttl();
+}
+.alzitem {
+  @include alzitem();
+}

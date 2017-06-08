@@ -1,0 +1,39 @@
+.spgarea {
+  background-image: url("../../portfolio/img/spg-bg.png");
+  background-repeat: round;
+  padding-bottom: 100px;
+
+  &__title {
+    text-align: center;
+    background-color: #C0272D;
+    padding: 25px;
+  }
+}
+
+.spgareabox {
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 0;
+
+  &__item {
+    width: 834px;
+    height: 310px;
+    margin: 0 auto;
+  }
+
+  &__inner {
+    float: left;
+    width: 550px;
+    padding: 20px 20px 20px 30px;
+
+    &__txt {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    &__img {
+      float: right;
+    }
+  }
+}

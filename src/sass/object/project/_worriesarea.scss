@@ -1,0 +1,32 @@
+.worriesarea {
+  background-image: url("../../portfolio/img/bg4.png");
+  text-align: center;
+  background-repeat: repeat-x;
+  margin-bottom: 100px;
+
+  &__img {
+    margin-bottom: 20px;
+  }
+}
+
+.checklist {
+  width: 684px;
+  height: 677px;
+  margin: 0 auto;
+  background-image: url("../../portfolio/img/check-list.png");
+  background-repeat: no-repeat;
+}
+
+.checkbox {
+  width: 600px;
+  float: right;
+  margin-top: 30px;
+
+  &__item {
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}

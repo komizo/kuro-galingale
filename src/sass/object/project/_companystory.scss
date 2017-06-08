@@ -1,0 +1,41 @@
+.companystory {
+  background-image: url("../../portfolio/img/bg3.png");
+  padding: 150px;
+  text-align: center;
+
+  &__area {
+    width: 980px;
+    margin: 0 auto 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+
+    &__txt {
+      font-size: 16px;
+      line-height: 30px;
+      text-align: left;
+    }
+
+    &__txtbox {
+      padding: 0 50px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.story__img {
+  margin-top: -100px;
+  margin-bottom: 20px;
+}
+
+.st-photo1 {
+  float: right;
+}
+
+.st-photo2 {
+  float: left;
+  margin-left: -10px;
+}
+
+.sentence {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,46 @@
+.talkarea {
+  background-image: url("../../portfolio/img/talk.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 20px;
+  margin-top: -80px;
+
+  &__txt {
+    font-size: 20px;
+  }
+
+  &__content {
+    width: 929px;
+    height: 674px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__talk1 {
+    position: absolute;
+    top: 55px;
+    left: 235px;
+    width: 400px;
+    line-height: 30px;
+  }
+
+  &__talk2 {
+    position: absolute;
+    top: 230px;
+    left: 235px;
+    width: 450px;
+    line-height: 30px;
+
+    &__txt {
+      font-size: 19px;
+    }
+  }
+
+  &__talk3 {
+    position: absolute;
+    top: 475px;
+    left: 235px;
+    width: 450px;
+    line-height: 30px;
+  }
+}

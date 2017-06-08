@@ -1,0 +1,19 @@
+.pickuparea {
+  background-image: url("../../portfolio/img/pickup-bg.png");
+  padding: 20px 0;
+
+  &__content {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+
+    &__list {
+      font-size: 0;
+    }
+
+    &__thumb {
+      display: inline-block;
+    }
+  }
+}

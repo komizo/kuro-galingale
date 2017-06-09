@@ -41,7 +41,7 @@ h1 {
 
 .p-mainimage {
   text-align: center;
-  background-image: url("../../portfolio/img/bg.png"); }
+  background-image: url("../img/bg.png"); }
 
 .p-photolist {
   margin-bottom: 50px;
@@ -51,7 +51,7 @@ h1 {
   display: inline-block; }
 
 .p-pickuparea {
-  background-image: url("../../portfolio/img/pickup-bg.png");
+  background-image: url("../img/pickup-bg.png");
   padding: 20px 0; }
   .p-pickuparea__content {
     background-color: #fff;
@@ -65,23 +65,23 @@ h1 {
 
 .p-aboutarea {
   text-align: center;
-  background-image: url("../../portfolio/img/about-bg.png");
+  background-image: url("../img/about-bg.png");
   padding-bottom: 200px; }
   .p-aboutarea__innerbox {
     width: 982px;
     margin: 0 auto;
     position: relative; }
   .p-aboutarea__txtbox {
-    background-image: url("../../portfolio/img/about-line1.png");
+    background-image: url("../img/about-line1.png");
     background-repeat: no-repeat;
     background-position-y: 10px;
     margin-top: -50px;
     margin-bottom: 50px; }
   .p-aboutarea__txtbox2 {
-    background-image: url("../../portfolio/img/about-line2.png");
+    background-image: url("../img/about-line2.png");
     background-repeat: no-repeat; }
   .p-aboutarea__txtbox3 {
-    background-image: url("../../portfolio/img/about-line3.png");
+    background-image: url("../img/about-line3.png");
     background-repeat: no-repeat;
     position: relative; }
   .p-aboutarea__txt1, .p-aboutarea__txt2, .p-aboutarea__txt3 {
@@ -108,12 +108,12 @@ h1 {
     top: 0;
     right: -30px; }
   .p-aboutarea__img {
-    background-image: url("../../portfolio/img/about-line4.png");
+    background-image: url("../img/about-line4.png");
     background-position: 20px 50px;
     background-repeat: no-repeat; }
 
 .p-profile {
-  background-image: url("../../portfolio/img/profile-bg.png");
+  background-image: url("../img/profile-bg.png");
   background-repeat: no-repeat;
   width: 979px;
   height: 504px;
@@ -137,7 +137,7 @@ h1 {
   background-color: #F8F8EE;
   text-align: center;
   padding-bottom: 50px;
-  background-image: url("../../portfolio/img/bg2.png"); }
+  background-image: url("../img/bg2.png"); }
   .p-customerVoice__title {
     font-size: 40px;
     color: #754C24;
@@ -159,17 +159,18 @@ h1 {
       margin-bottom: 30px; }
     .p-customerVoice__content__txt {
       line-height: 30px;
-      text-align: left; }
+      text-align: left;
+      margin-bottom: 20px; }
 
 .p-coursearea {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("../../portfolio/img/course-bg.png"); }
+  background-image: url("../img/course-bg.png"); }
   .p-coursearea__content {
     width: 981px;
     height: 1367px;
     margin: 0 auto;
-    background-image: url("../../portfolio/img/course-bgbox.png");
+    background-image: url("../img/course-bgbox.png");
     background-repeat: no-repeat;
     font-size: 0;
     text-align: center; }
@@ -200,7 +201,7 @@ h1 {
   float: left; }
 
 .p-companystory {
-  background-image: url("../../portfolio/img/bg3.png");
+  background-image: url("../img/bg3.png");
   padding: 150px;
   text-align: center; }
   .p-companystory__area {
@@ -211,10 +212,10 @@ h1 {
     .p-companystory__area__txt {
       font-size: 16px;
       line-height: 30px;
-      text-align: left; }
-    .p-companystory__area__txtbox {
-      padding: 0 50px;
+      text-align: left;
       margin-bottom: 20px; }
+    .p-companystory__area__txtbox {
+      margin: 0 50px 20px; }
 
 .p-story__img {
   margin-top: -100px;
@@ -224,14 +225,13 @@ h1 {
   float: right; }
 
 .p-st-photo2 {
-  float: left;
-  margin-left: -10px; }
+  float: left; }
 
 .p-sentence {
   margin-bottom: 50px; }
 
 .p-worriesarea {
-  background-image: url("../../portfolio/img/bg4.png");
+  background-image: url("../img/bg4.png");
   text-align: center;
   background-repeat: repeat-x;
   margin-bottom: 100px; }
@@ -242,7 +242,7 @@ h1 {
   width: 684px;
   height: 677px;
   margin: 0 auto;
-  background-image: url("../../portfolio/img/check-list.png");
+  background-image: url("../img/check-list.png");
   background-repeat: no-repeat; }
 
 .p-checkbox {
@@ -264,13 +264,13 @@ h1 {
 
 .p-middlettl {
   text-align: center;
-  background-image: url("../../portfolio/img/middle-bg.png");
+  background-image: url("../img/middle-bg.png");
   background-repeat: round;
   padding-top: 50px;
   padding-bottom: 100px; }
 
 .p-talkarea {
-  background-image: url("../../portfolio/img/talk.png");
+  background-image: url("../img/talk.png");
   background-repeat: no-repeat;
   background-position: top center;
   margin-bottom: 20px;
@@ -336,7 +336,7 @@ h1 {
 .p-alzfactorarea {
   text-align: center;
   margin-bottom: 20px;
-  background-image: url("../../portfolio/img/cause-bg.png");
+  background-image: url("../img/cause-bg.png");
   background-repeat: round;
   padding-bottom: 150px; }
 
@@ -352,7 +352,7 @@ h1 {
   margin: 0 auto;
   width: 850px; }
   .p-alzfactorarea__box__list {
-    background-image: url("../../portfolio/img/alz-process.png");
+    background-image: url("../img/alz-process.png");
     background-repeat: no-repeat;
     height: 360px;
     position: relative; }
@@ -389,10 +389,10 @@ h1 {
     text-align: left; }
 
 .p-alzabput {
-  background-image: url("../../portfolio/img/alz-about.png");
+  background-image: url("../img/alz-about.png");
   background-repeat: no-repeat;
   background-position: top center;
-  width: 700px;
+  width: 706px;
   height: 400px;
   margin: 0 auto; }
   .p-alzabput__title {
@@ -401,12 +401,12 @@ h1 {
     height: 60px;
     line-height: 60px; }
   .p-alzabput__txt {
-    padding: 10px 30px;
+    padding: 10px 35px 20px;
     line-height: 28px;
     text-align: left; }
 
 .p-pointarea {
-  background-image: url("../../portfolio/img/kg-point-bg.png");
+  background-image: url("../img/kg-point-bg.png");
   background-repeat: round;
   padding-bottom: 100px;
   text-align: center; }
@@ -444,7 +444,7 @@ h1 {
     margin-right: -65px; }
 
 .p-spgarea {
-  background-image: url("../../portfolio/img/spg-bg.png");
+  background-image: url("../img/spg-bg.png");
   background-repeat: round;
   padding-bottom: 100px; }
   .p-spgarea__title {
@@ -467,12 +467,13 @@ h1 {
     padding: 20px 20px 20px 30px; }
     .p-spgareabox__inner__txt {
       font-size: 15px;
-      line-height: 25px; }
+      line-height: 25px;
+      margin-bottom: 20px; }
     .p-spgareabox__inner__img {
       float: right; }
 
 .p-factoryarea {
-  background-image: url("../../portfolio/img/factory-bg.png");
+  background-image: url("../img/factory-bg.png");
   text-align: center;
   padding-bottom: 100px;
   background-repeat: round; }
@@ -488,15 +489,16 @@ h1 {
       .p-factoryarea__content__pass__img {
         margin-top: -40px; }
     .p-factoryarea__content__process {
-      width: 700px;
-      height: 300px;
+      width: 709px;
+      height: 288px;
       float: right;
-      background-image: url("../../portfolio/img/factory-process.png");
+      background-image: url("../img/factory-process.png");
       background-repeat: no-repeat;
       position: absolute;
       top: 20px;
       right: 10px; }
     .p-factoryarea__content__txt {
+      width: 700px;
       position: absolute;
       top: 200px;
       left: 5px;
@@ -505,7 +507,7 @@ h1 {
       line-height: 20px; }
 
 .p-usergide__content {
-  background-image: url("../../portfolio/img/eat-kg.png");
+  background-image: url("../img/eat-kg.png");
   background-repeat: no-repeat;
   width: 945px;
   height: 220px;
@@ -521,51 +523,53 @@ h1 {
   width: 390px; }
 
 .p-messagearea {
-  background-image: url("../../portfolio/img/bg2.png");
+  background-image: url("../img/bg2.png");
   text-align: center; }
 
 .p-messagebox {
   width: 980px;
   margin: 0 auto;
   font-size: 0; }
-  .p-messagebox__txt {
+  .p-messagebox__inner {
     position: absolute;
     top: 200px;
-    left: 20px;
+    left: 25px; }
+  .p-messagebox__txt {
     width: 430px;
     text-align: left;
     line-height: 30px;
-    font-size: 14.5px; }
+    font-size: 14.5px;
+    margin-bottom: 20px; }
   .p-messagebox__item, .p-messagebox__item1, .p-messagebox__item2, .p-messagebox__item3, .p-messagebox__item4 {
     width: 475px;
     height: 490px;
-    position: relative;
     display: inline-block;
+    position: relative;
     margin-bottom: 50px; }
   .p-messagebox__item1 {
-    background-image: url("../../portfolio/img/about-message1.png");
+    background-image: url("../img/about-message1.png");
     background-repeat: no-repeat;
     margin-right: 30px; }
   .p-messagebox__item2 {
-    background-image: url("../../portfolio/img/about-message2.png");
+    background-image: url("../img/about-message2.png");
     background-repeat: no-repeat; }
   .p-messagebox__item3 {
-    background-image: url("../../portfolio/img/about-message3.png");
+    background-image: url("../img/about-message3.png");
     background-repeat: no-repeat;
     margin-right: 30px; }
   .p-messagebox__item4 {
-    background-image: url("../../portfolio/img/about-message4.png");
+    background-image: url("../img/about-message4.png");
     background-repeat: no-repeat; }
 
 .p-qaarea {
-  background-image: url("../../portfolio/img/q&a-bg.png");
+  background-image: url("../img/q&a-bg.png");
   background-repeat: round;
   padding: 80px 0; }
   .p-qaarea__content {
     width: 845px;
     height: 630px;
     margin: 80px auto;
-    background-image: url("../../portfolio/img/qa-body.png");
+    background-image: url("../img/qa-body.png");
     position: relative; }
     .p-qaarea__content__list {
       position: absolute;

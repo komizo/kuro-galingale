@@ -427,7 +427,7 @@ h1 {
   margin: 0 auto; }
   .p-kgareabox__inner {
     float: left;
-    width: 580px;
+    width: 560px;
     padding-top: 40px; }
     .p-kgareabox__inner__subtitle {
       color: #603813;
@@ -438,8 +438,7 @@ h1 {
       font-size: 15px;
       line-height: 25px; }
   .p-kgareabox__img {
-    float: right;
-    margin-right: -65px; }
+    float: right; }
 
 .p-spgarea {
   background-image: url("../img/spg-bg.png");

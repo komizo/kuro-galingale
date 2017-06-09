@@ -134,7 +134,6 @@ h1 {
       width: 840px; }
 
 .p-customerVoice {
-  background-color: #F8F8EE;
   text-align: center;
   padding-bottom: 50px;
   background-image: url("../img/bg2.png"); }
@@ -233,7 +232,6 @@ h1 {
 .p-worriesarea {
   background-image: url("../img/bg4.png");
   text-align: center;
-  background-repeat: repeat-x;
   margin-bottom: 100px; }
   .p-worriesarea__img {
     margin-bottom: 20px; }
@@ -464,7 +462,7 @@ h1 {
   .p-spgareabox__inner {
     float: left;
     width: 550px;
-    padding: 20px 20px 20px 30px; }
+    margin: 20px 20px 20px 30px; }
     .p-spgareabox__inner__txt {
       font-size: 15px;
       line-height: 25px;

@@ -1,4 +1,4 @@
-.usergide {
+.p-usergide {
   &__content {
     background-image: url("../../portfolio/img/eat-kg.png");
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     position: relative;
   }
 
-  .usergide__txt {
+  &__txt {
     font-size: 14px;
     line-height: 23px;
     position: absolute;

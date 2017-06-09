@@ -1,9 +1,9 @@
-.alztypearea {
+.p-alztypearea {
   @include alzarea();
 }
-.alztypetitle {
+.p-alztypetitle {
   @include alzttl();
 }
-.alzitem {
+.p-alzitem {
   @include alzitem();
 }

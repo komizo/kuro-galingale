@@ -1,24 +1,12 @@
-// .breinarea {
-//   text-align: center;
-//   margin-bottom: 20px;
-// }
-//
-// .breintitle {
-//   text-align: center;
-//   color: $baseTextcolor;
-//   background-color: #66AA00;
-//   padding: 20px 0;
-//   font-size: 40px;
-//   margin-bottom: 50px;
-// }
-.breinarea {
+
+.p-breinarea {
   @include alzarea();
 }
 
-.breintitle {
+.p-breintitle {
   @include alzttl();
 }
 
-.breinitem {
+.p-breinitem {
   @include alzitem();
 }

@@ -1,4 +1,4 @@
-.coursearea {
+.p-coursearea {
   padding-top: 50px;
   padding-bottom: 50px;
   background-image: url("../../portfolio/img/course-bg.png");
@@ -23,8 +23,9 @@
     &__txt {
       font-size: 10px;
       line-height: 15px;
-      width: 600px;
-      margin: 0 auto 20px;
+      width: 700px;
+      margin: 0 auto 10px;
+      text-align: left;
     }
   }
 }

@@ -1,15 +1,15 @@
-.alzfactorarea {
+.p-alzfactorarea {
   @include alzarea();
   background-image: url("../../portfolio/img/cause-bg.png");
   background-repeat: round;
   padding-bottom: 150px;
 }
 
-.alzfactortitle {
+.p-alzfactortitle {
   @include alzttl();
 }
 
-.alzfactorarea__box {
+.p-alzfactorarea__box {
   margin: 0 auto;
   width: 850px;
 
@@ -29,37 +29,37 @@
   }
 
   &__txt2 {
-    @extend .alzfactorarea__box__txt;
+    @extend .p-alzfactorarea__box__txt;
     top: 50px;
     left: 210px;
   }
 
   &__txt3 {
-    @extend .alzfactorarea__box__txt;
+    @extend .p-alzfactorarea__box__txt;
     top: 30px;
     left: 362px;
   }
 
   &__txt4 {
-    @extend .alzfactorarea__box__txt;
+    @extend .p-alzfactorarea__box__txt;
     top: 45px;
     left: 555px;
   }
 
   &__txt5 {
-    @extend .alzfactorarea__box__txt;
+    @extend .p-alzfactorarea__box__txt;
     top: 60px;
     left: 745px;
   }
 
   &__txt6 {
-    @extend .alzfactorarea__box__txt;
+    @extend .p-alzfactorarea__box__txt;
     top: 220px;
     left: 725px;
   }
 
   &__txt7 {
-    @extend .alzfactorarea__box__txt;
+    @extend .p-alzfactorarea__box__txt;
     top: 210px;
     left: 550px;
   }
@@ -73,7 +73,7 @@
     text-align: left;
   }
 }
-.alzabput {
+.p-alzabput {
   background-image: url("../../portfolio/img/alz-about.png");
   background-repeat: no-repeat;
   background-position: top center;

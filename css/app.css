@@ -39,133 +39,133 @@ h1 {
 .button2 {
   float: right; }
 
-.mainimage {
+.p-mainimage {
   text-align: center;
   background-image: url("../../portfolio/img/bg.png"); }
 
-.photolist {
+.p-photolist {
   margin-bottom: 50px;
   text-align: center; }
 
-.photolist_item {
+.p-photolist_item {
   display: inline-block; }
 
-.pickuparea {
+.p-pickuparea {
   background-image: url("../../portfolio/img/pickup-bg.png");
   padding: 20px 0; }
-  .pickuparea__content {
+  .p-pickuparea__content {
     background-color: #fff;
     margin: 0 auto;
     width: 1000px;
     text-align: center; }
-    .pickuparea__content__list {
+    .p-pickuparea__content__list {
       font-size: 0; }
-    .pickuparea__content__thumb {
+    .p-pickuparea__content__thumb {
       display: inline-block; }
 
-.aboutarea {
+.p-aboutarea {
   text-align: center;
   background-image: url("../../portfolio/img/about-bg.png");
   padding-bottom: 200px; }
-  .aboutarea__innerbox {
+  .p-aboutarea__innerbox {
     width: 982px;
     margin: 0 auto;
     position: relative; }
-  .aboutarea__txtbox {
+  .p-aboutarea__txtbox {
     background-image: url("../../portfolio/img/about-line1.png");
     background-repeat: no-repeat;
     background-position-y: 10px;
     margin-top: -50px;
     margin-bottom: 50px; }
-  .aboutarea__txtbox2 {
+  .p-aboutarea__txtbox2 {
     background-image: url("../../portfolio/img/about-line2.png");
     background-repeat: no-repeat; }
-  .aboutarea__txtbox3 {
+  .p-aboutarea__txtbox3 {
     background-image: url("../../portfolio/img/about-line3.png");
     background-repeat: no-repeat;
     position: relative; }
-  .aboutarea__txt1, .aboutarea__txt2, .aboutarea__txt3 {
+  .p-aboutarea__txt1, .p-aboutarea__txt2, .p-aboutarea__txt3 {
     line-height: 35px;
     text-align: left;
     width: 520px;
     font-size: 15.5px; }
-  .aboutarea__txt2 {
+  .p-aboutarea__txt2 {
     width: 513px;
     float: right;
     padding-top: 40px; }
-  .aboutarea__txt3 {
+  .p-aboutarea__txt3 {
     width: 520px;
     float: left;
     padding-top: 5px; }
-  .aboutarea__thumb1 {
+  .p-aboutarea__thumb1 {
     position: absolute;
     top: 340px;
     left: 495px; }
-  .aboutarea__thumb2 {
+  .p-aboutarea__thumb2 {
     float: left; }
-  .aboutarea__thumb3 {
+  .p-aboutarea__thumb3 {
     position: absolute;
     top: 0;
     right: -30px; }
-  .aboutarea__img {
+  .p-aboutarea__img {
     background-image: url("../../portfolio/img/about-line4.png");
     background-position: 20px 50px;
     background-repeat: no-repeat; }
 
-.profile {
+.p-profile {
   background-image: url("../../portfolio/img/profile-bg.png");
   background-repeat: no-repeat;
   width: 979px;
   height: 504px;
   margin: 0 auto;
   position: relative; }
-  .profile__list {
+  .p-profile__list {
     position: absolute;
     top: 140px;
     left: 60px; }
-    .profile__list__item {
+    .p-profile__list__item {
       color: #fff;
       line-height: 35px;
       font-size: 15px;
       text-align: left; }
-    .profile__list__size {
+    .p-profile__list__size {
       width: 620px; }
-    .profile__list__size2 {
+    .p-profile__list__size2 {
       width: 840px; }
 
-.customerVoice {
+.p-customerVoice {
   background-color: #F8F8EE;
   text-align: center;
   padding-bottom: 50px;
   background-image: url("../../portfolio/img/bg2.png"); }
-  .customerVoice__title {
+  .p-customerVoice__title {
     font-size: 40px;
     color: #754C24;
     margin-bottom: 20px;
     text-align: left;
     line-height: 45px; }
-  .customerVoice__content {
+  .p-customerVoice__content {
     width: 980px;
     margin: 0 auto;
     background-color: #fff;
     padding: 30px;
     border-top: 10px solid #66A900;
     box-sizing: border-box; }
-    .customerVoice__content:last-child {
+    .p-customerVoice__content:last-child {
       border-bottom: 10px solid #66A900; }
-    .customerVoice__content__thumb {
+    .p-customerVoice__content__thumb {
       float: right;
       margin-left: 30px;
       margin-bottom: 30px; }
-    .customerVoice__content__txt {
+    .p-customerVoice__content__txt {
       line-height: 30px;
       text-align: left; }
 
-.coursearea {
+.p-coursearea {
   padding-top: 50px;
   padding-bottom: 50px;
   background-image: url("../../portfolio/img/course-bg.png"); }
-  .coursearea__content {
+  .p-coursearea__content {
     width: 981px;
     height: 1367px;
     margin: 0 auto;
@@ -173,15 +173,16 @@ h1 {
     background-repeat: no-repeat;
     font-size: 0;
     text-align: center; }
-    .coursearea__content__item {
+    .p-coursearea__content__item {
       display: inline-block; }
-    .coursearea__content__right {
+    .p-coursearea__content__right {
       padding-top: 80px; }
-    .coursearea__content__txt {
+    .p-coursearea__content__txt {
       font-size: 10px;
       line-height: 15px;
-      width: 600px;
-      margin: 0 auto 20px; }
+      width: 700px;
+      margin: 0 auto 10px;
+      text-align: left; }
 
 .course-contact {
   border: 2px solid #B1BC83;
@@ -198,115 +199,115 @@ h1 {
 .one-delivery {
   float: left; }
 
-.companystory {
+.p-companystory {
   background-image: url("../../portfolio/img/bg3.png");
   padding: 150px;
   text-align: center; }
-  .companystory__area {
+  .p-companystory__area {
     width: 980px;
     margin: 0 auto 50px;
     padding-bottom: 50px;
     background-color: #fff; }
-    .companystory__area__txt {
+    .p-companystory__area__txt {
       font-size: 16px;
       line-height: 30px;
       text-align: left; }
-    .companystory__area__txtbox {
+    .p-companystory__area__txtbox {
       padding: 0 50px;
       margin-bottom: 20px; }
 
-.story__img {
+.p-story__img {
   margin-top: -100px;
   margin-bottom: 20px; }
 
-.st-photo1 {
+.p-st-photo1 {
   float: right; }
 
-.st-photo2 {
+.p-st-photo2 {
   float: left;
   margin-left: -10px; }
 
-.sentence {
+.p-sentence {
   margin-bottom: 50px; }
 
-.worriesarea {
+.p-worriesarea {
   background-image: url("../../portfolio/img/bg4.png");
   text-align: center;
   background-repeat: repeat-x;
   margin-bottom: 100px; }
-  .worriesarea__img {
+  .p-worriesarea__img {
     margin-bottom: 20px; }
 
-.checklist {
+.p-checklist {
   width: 684px;
   height: 677px;
   margin: 0 auto;
   background-image: url("../../portfolio/img/check-list.png");
   background-repeat: no-repeat; }
 
-.checkbox {
+.p-checkbox {
   width: 600px;
   float: right;
   margin-top: 30px; }
-  .checkbox__item {
+  .p-checkbox__item {
     height: 60px;
     line-height: 60px;
     font-size: 25px;
     margin-bottom: 10px;
     text-align: left; }
 
-.goldarrow {
+.p-goldarrow {
   text-align: center; }
 
-.down-arrow {
+.p-down-arrow {
   margin-bottom: -50px; }
 
-.middlettl {
+.p-middlettl {
   text-align: center;
   background-image: url("../../portfolio/img/middle-bg.png");
   background-repeat: round;
   padding-top: 50px;
   padding-bottom: 100px; }
 
-.talkarea {
+.p-talkarea {
   background-image: url("../../portfolio/img/talk.png");
   background-repeat: no-repeat;
   background-position: top center;
   margin-bottom: 20px;
   margin-top: -80px; }
-  .talkarea__txt {
+  .p-talkarea__txt {
     font-size: 20px; }
-  .talkarea__content {
+  .p-talkarea__content {
     width: 929px;
     height: 674px;
     margin: 0 auto;
     position: relative; }
-  .talkarea__talk1 {
+  .p-talkarea__talk1 {
     position: absolute;
     top: 55px;
     left: 235px;
     width: 400px;
     line-height: 30px; }
-  .talkarea__talk2 {
+  .p-talkarea__talk2 {
     position: absolute;
     top: 230px;
     left: 235px;
     width: 450px;
     line-height: 30px; }
-    .talkarea__talk2__txt {
+    .p-talkarea__talk2__txt {
       font-size: 19px; }
-  .talkarea__talk3 {
+  .p-talkarea__talk3 {
     position: absolute;
     top: 475px;
     left: 235px;
     width: 450px;
     line-height: 30px; }
 
-.breinarea {
+.p-breinarea {
   text-align: center;
   margin-bottom: 20px; }
 
-.breintitle {
+.p-breintitle {
   text-align: center;
   color: #fff;
   background-color: #66AA00;
@@ -314,14 +315,14 @@ h1 {
   font-size: 40px;
   margin-bottom: 50px; }
 
-.breinitem {
+.p-breinitem {
   display: inline-block; }
 
-.alztypearea {
+.p-alztypearea {
   text-align: center;
   margin-bottom: 20px; }
 
-.alztypetitle {
+.p-alztypetitle {
   text-align: center;
   color: #fff;
   background-color: #66AA00;
@@ -329,17 +330,17 @@ h1 {
   font-size: 40px;
   margin-bottom: 50px; }
 
-.alzitem {
+.p-alzitem {
   display: inline-block; }
 
-.alzfactorarea {
+.p-alzfactorarea {
   text-align: center;
   margin-bottom: 20px;
   background-image: url("../../portfolio/img/cause-bg.png");
   background-repeat: round;
   padding-bottom: 150px; }
 
-.alzfactortitle {
+.p-alzfactortitle {
   text-align: center;
   color: #fff;
   background-color: #66AA00;
@@ -347,39 +348,39 @@ h1 {
   font-size: 40px;
   margin-bottom: 50px; }
 
-.alzfactorarea__box {
+.p-alzfactorarea__box {
   margin: 0 auto;
   width: 850px; }
-  .alzfactorarea__box__list {
+  .p-alzfactorarea__box__list {
     background-image: url("../../portfolio/img/alz-process.png");
     background-repeat: no-repeat;
     height: 360px;
     position: relative; }
-  .alzfactorarea__box__txt, .alzfactorarea__box__txt2, .alzfactorarea__box__txt3, .alzfactorarea__box__txt4, .alzfactorarea__box__txt5, .alzfactorarea__box__txt6, .alzfactorarea__box__txt7 {
+  .p-alzfactorarea__box__txt, .p-alzfactorarea__box__txt2, .p-alzfactorarea__box__txt3, .p-alzfactorarea__box__txt4, .p-alzfactorarea__box__txt5, .p-alzfactorarea__box__txt6, .p-alzfactorarea__box__txt7 {
     position: absolute;
     top: 30px;
     left: 20px;
     font-size: 22px;
     line-height: 30px; }
-  .alzfactorarea__box__txt2 {
+  .p-alzfactorarea__box__txt2 {
     top: 50px;
     left: 210px; }
-  .alzfactorarea__box__txt3 {
+  .p-alzfactorarea__box__txt3 {
     top: 30px;
     left: 362px; }
-  .alzfactorarea__box__txt4 {
+  .p-alzfactorarea__box__txt4 {
     top: 45px;
     left: 555px; }
-  .alzfactorarea__box__txt5 {
+  .p-alzfactorarea__box__txt5 {
     top: 60px;
     left: 745px; }
-  .alzfactorarea__box__txt6 {
+  .p-alzfactorarea__box__txt6 {
     top: 220px;
     left: 725px; }
-  .alzfactorarea__box__txt7 {
+  .p-alzfactorarea__box__txt7 {
     top: 210px;
     left: 550px; }
-  .alzfactorarea__box__txt8 {
+  .p-alzfactorarea__box__txt8 {
     position: absolute;
     width: 510px;
     top: 170px;
@@ -387,103 +388,106 @@ h1 {
     line-height: 20px;
     text-align: left; }
 
-.alzabput {
+.p-alzabput {
   background-image: url("../../portfolio/img/alz-about.png");
   background-repeat: no-repeat;
   background-position: top center;
   width: 700px;
   height: 400px;
   margin: 0 auto; }
-  .alzabput__title {
+  .p-alzabput__title {
     color: #fff;
     font-size: 25px;
     height: 60px;
     line-height: 60px; }
-  .alzabput__txt {
+  .p-alzabput__txt {
     padding: 10px 30px;
     line-height: 28px;
     text-align: left; }
 
-.pointarea {
+.p-pointarea {
   background-image: url("../../portfolio/img/kg-point-bg.png");
   background-repeat: round;
   padding-bottom: 100px;
   text-align: center; }
-  .pointarea__img {
+  .p-pointarea__img {
     margin-top: -130px;
     margin-bottom: 100px; }
 
-.kgarea__title {
+.p-kgarea {
+  background-color: #fff; }
+
+.p-kgarea__title {
   color: #fff;
   background-color: #8B6239;
   text-align: center;
   padding: 20px 0;
   font-size: 40px; }
 
-.kgareabox {
+.p-kgareabox {
   width: 980px;
   margin: 0 auto; }
-  .kgareabox__inner {
+  .p-kgareabox__inner {
     float: left;
     width: 580px;
     padding-top: 40px; }
-    .kgareabox__inner__subtitle {
+    .p-kgareabox__inner__subtitle {
       color: #603813;
       font-size: 28px;
       line-height: 60px;
       font-weight: bold; }
-    .kgareabox__inner__txt {
+    .p-kgareabox__inner__txt {
       font-size: 15px;
       line-height: 25px; }
-  .kgareabox__img {
+  .p-kgareabox__img {
     float: right;
     margin-right: -65px; }
 
-.spgarea {
+.p-spgarea {
   background-image: url("../../portfolio/img/spg-bg.png");
   background-repeat: round;
   padding-bottom: 100px; }
-  .spgarea__title {
+  .p-spgarea__title {
     text-align: center;
     background-color: #C0272D;
     padding: 25px; }
 
-.spgareabox {
+.p-spgareabox {
   width: 980px;
   margin: 0 auto;
   background-color: #fff;
   padding: 30px 0; }
-  .spgareabox__item {
+  .p-spgareabox__item {
     width: 834px;
     height: 310px;
     margin: 0 auto; }
-  .spgareabox__inner {
+  .p-spgareabox__inner {
     float: left;
     width: 550px;
     padding: 20px 20px 20px 30px; }
-    .spgareabox__inner__txt {
+    .p-spgareabox__inner__txt {
       font-size: 15px;
       line-height: 25px; }
-    .spgareabox__inner__img {
+    .p-spgareabox__inner__img {
       float: right; }
 
-.factoryarea {
+.p-factoryarea {
   background-image: url("../../portfolio/img/factory-bg.png");
   text-align: center;
   padding-bottom: 100px;
   background-repeat: round; }
-  .factoryarea__title__img {
+  .p-factoryarea__title__img {
     margin-top: -20px; }
-  .factoryarea__content {
+  .p-factoryarea__content {
     width: 940px;
     height: 250px;
     margin: 0 auto;
     position: relative; }
-    .factoryarea__content__pass {
+    .p-factoryarea__content__pass {
       position: absolute; }
-      .factoryarea__content__pass__img {
+      .p-factoryarea__content__pass__img {
         margin-top: -40px; }
-    .factoryarea__content__process {
+    .p-factoryarea__content__process {
       width: 700px;
       height: 300px;
       float: right;
@@ -492,7 +496,7 @@ h1 {
       position: absolute;
       top: 20px;
       right: 10px; }
-    .factoryarea__content__txt {
+    .p-factoryarea__content__txt {
       position: absolute;
       top: 200px;
       left: 5px;
@@ -500,7 +504,7 @@ h1 {
       text-align: left;
       line-height: 20px; }
 
-.usergide__content {
+.p-usergide__content {
   background-image: url("../../portfolio/img/eat-kg.png");
   background-repeat: no-repeat;
   width: 945px;
@@ -508,7 +512,7 @@ h1 {
   margin: 50px auto;
   position: relative; }
 
-.usergide .usergide__txt {
+.p-usergide__txt {
   font-size: 14px;
   line-height: 23px;
   position: absolute;
@@ -516,15 +520,15 @@ h1 {
   left: 130px;
   width: 390px; }
 
-.messagearea {
+.p-messagearea {
   background-image: url("../../portfolio/img/bg2.png");
   text-align: center; }
 
-.messagebox {
+.p-messagebox {
   width: 980px;
   margin: 0 auto;
   font-size: 0; }
-  .messagebox__txt {
+  .p-messagebox__txt {
     position: absolute;
     top: 200px;
     left: 20px;
@@ -532,46 +536,46 @@ h1 {
     text-align: left;
     line-height: 30px;
     font-size: 14.5px; }
-  .messagebox__item, .messagebox__item1, .messagebox__item2, .messagebox__item3, .messagebox__item4 {
+  .p-messagebox__item, .p-messagebox__item1, .p-messagebox__item2, .p-messagebox__item3, .p-messagebox__item4 {
     width: 475px;
     height: 490px;
     position: relative;
     display: inline-block;
     margin-bottom: 50px; }
-  .messagebox__item1 {
+  .p-messagebox__item1 {
     background-image: url("../../portfolio/img/about-message1.png");
     background-repeat: no-repeat;
     margin-right: 30px; }
-  .messagebox__item2 {
+  .p-messagebox__item2 {
     background-image: url("../../portfolio/img/about-message2.png");
     background-repeat: no-repeat; }
-  .messagebox__item3 {
+  .p-messagebox__item3 {
     background-image: url("../../portfolio/img/about-message3.png");
     background-repeat: no-repeat;
     margin-right: 30px; }
-  .messagebox__item4 {
+  .p-messagebox__item4 {
     background-image: url("../../portfolio/img/about-message4.png");
     background-repeat: no-repeat; }
 
-.qaarea {
+.p-qaarea {
   background-image: url("../../portfolio/img/q&a-bg.png");
   background-repeat: round;
   padding: 80px 0; }
-  .qaarea__content {
+  .p-qaarea__content {
     width: 845px;
     height: 630px;
     margin: 80px auto;
     background-image: url("../../portfolio/img/qa-body.png");
     position: relative; }
-    .qaarea__content__list {
+    .p-qaarea__content__list {
       position: absolute;
       top: 150px;
       left: 40px;
       width: 760px; }
-    .qaarea__content__list__tiele {
+    .p-qaarea__content__list__tiele {
       color: #8B6239;
       font-size: 25px;
       line-height: 35px;
       margin: 10px 0 5px; }
-    .qaarea__content__list__txt {
+    .p-qaarea__content__list__txt {
       line-height: 30px; }

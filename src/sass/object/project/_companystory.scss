@@ -1,5 +1,5 @@
 .p-companystory {
-  background-image: url("../../portfolio/img/bg3.png");
+  background-image: url("../img/bg3.png");
   padding: 150px;
   text-align: center;
 
@@ -13,11 +13,13 @@
       font-size: 16px;
       line-height: 30px;
       text-align: left;
+      margin-bottom: 20px;
     }
 
     &__txtbox {
-      padding: 0 50px;
-      margin-bottom: 20px;
+      // padding: 0 50px;
+      margin: 0 50px 20px;
+      // margin-bottom: 20px;
     }
   }
 }
@@ -33,7 +35,6 @@
 
 .p-st-photo2 {
   float: left;
-  margin-left: -10px;
 }
 
 .p-sentence {

@@ -1,6 +1,6 @@
 .p-alzfactorarea {
   @include alzarea();
-  background-image: url("../../portfolio/img/cause-bg.png");
+  background-image: url("../img/cause-bg.png");
   background-repeat: round;
   padding-bottom: 150px;
 }
@@ -14,7 +14,7 @@
   width: 850px;
 
   &__list {
-    background-image: url("../../portfolio/img/alz-process.png");
+    background-image: url("../img/alz-process.png");
     background-repeat: no-repeat;
     height: 360px;
     position: relative;
@@ -74,10 +74,10 @@
   }
 }
 .p-alzabput {
-  background-image: url("../../portfolio/img/alz-about.png");
+  background-image: url("../img/alz-about.png");
   background-repeat: no-repeat;
   background-position: top center;
-  width: 700px;
+  width: 706px;
   height: 400px;
   margin: 0 auto;
 
@@ -89,7 +89,7 @@
   }
 
   &__txt {
-    padding: 10px 30px;
+    padding: 10px 35px 20px;
     line-height: 28px;
     text-align: left;
   }

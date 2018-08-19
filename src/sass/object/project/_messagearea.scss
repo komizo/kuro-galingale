@@ -1,0 +1,58 @@
+.p-messagearea {
+  background-image: url("../img/bg2.png");
+  text-align: center;
+}
+
+.p-messagebox {
+  width: 980px;
+  margin: 0 auto;
+  font-size: 0;
+
+  &__inner {
+    position: absolute;
+    top: 200px;
+    left: 25px;
+  }
+
+  &__txt {
+    width: 430px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14.5px;
+    margin-bottom: 20px;
+  }
+
+  &__item {
+    width: 475px;
+    height: 490px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  &__item1 {
+    @extend .p-messagebox__item;
+    background-image: url("../img/about-message1.png");
+    background-repeat: no-repeat;
+    margin-right: 30px;
+  }
+
+  &__item2 {
+    @extend .p-messagebox__item;
+    background-image: url("../img/about-message2.png");
+    background-repeat: no-repeat;
+  }
+
+  &__item3 {
+    @extend .p-messagebox__item;
+    background-image: url("../img/about-message3.png");
+    background-repeat: no-repeat;
+    margin-right: 30px;
+  }
+
+  &__item4 {
+    @extend .p-messagebox__item;
+    background-image: url("../img/about-message4.png");
+    background-repeat: no-repeat;
+  }
+}

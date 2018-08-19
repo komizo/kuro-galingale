@@ -1,0 +1,38 @@
+.p-kgarea {
+  background-color: #fff;
+}
+
+.p-kgarea__title {
+  color: $baseTextcolor;
+  background-color: #8B6239;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px;
+}
+
+.p-kgareabox {
+  width: 980px;
+  margin: 0 auto;
+
+  &__inner {
+    float: left;
+    width: 560px;
+    padding-top: 40px;
+
+    &__subtitle {
+      color: #603813;
+      font-size: 28px;
+      line-height: 60px;
+      font-weight: bold;
+    }
+
+    &__txt {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  &__img {
+    float: right;
+  }
+}

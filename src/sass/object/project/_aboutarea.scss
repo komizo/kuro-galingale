@@ -1,0 +1,103 @@
+.p-aboutarea {
+  text-align: center;
+  background-image: url("../img/about-bg.png");
+  padding-bottom: 200px;
+
+  &__innerbox {
+    width: 982px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  &__txtbox {
+    background-image: url("../img/about-line1.png");
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+
+  &__txtbox2 {
+    background-image: url("../img/about-line2.png");
+    background-repeat: no-repeat;
+  }
+
+  &__txtbox3 {
+    background-image: url("../img/about-line3.png");
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  &__txt1 {
+    line-height: 35px;
+    text-align: left;
+    width: 520px;
+    font-size: 15.5px;
+  }
+
+  &__txt2 {
+    @extend .p-aboutarea__txt1;
+    width: 513px;
+    float: right;
+    padding-top: 40px;
+  }
+
+  &__txt3 {
+    @extend .p-aboutarea__txt1;
+    width: 520px;
+    float: left;
+    padding-top: 5px;
+  }
+
+  &__thumb1 {
+    position: absolute;
+    top: 340px;
+    left: 495px;
+  }
+
+  &__thumb2 {
+    float: left;
+  }
+
+  &__thumb3 {
+    position: absolute;
+    top: 0;
+    right: -30px;
+  }
+
+  &__img {
+    background-image: url("../img/about-line4.png");
+    background-position: 20px 50px;
+    background-repeat: no-repeat;
+  }
+}
+
+.p-profile {
+  background-image: url("../img/profile-bg.png");
+  background-repeat: no-repeat;
+  width: 979px;
+  height: 504px;
+  margin: 0 auto;
+  position: relative;
+
+  &__list {
+    position: absolute;
+    top: 140px;
+    left: 60px;
+
+    &__item {
+      color: #fff;
+      line-height: 35px;
+      font-size: 15px;
+      text-align: left;
+    }
+
+    &__size {
+      width: 620px;
+    }
+
+    &__size2 {
+      width: 840px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.p-customerVoice {
+  text-align: center;
+  padding-bottom: 50px;
+  background-image: url("../img/bg2.png");
+
+  &__title {
+    font-size: 40px;
+    color: #754C24;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 45px;
+  }
+
+  &__content {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-top: 10px solid #66A900;
+    box-sizing: border-box;
+
+    &:last-child {
+      border-bottom: 10px solid #66A900;
+    }
+
+    &__thumb {
+      float: right;
+      margin-left: 30px;
+      margin-bottom: 30px;
+    }
+
+    &__txt {
+      line-height: 30px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+  }
+}

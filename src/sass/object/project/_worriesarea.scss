@@ -1,0 +1,31 @@
+.p-worriesarea {
+  background-image: url("../img/bg4.png");
+  text-align: center;
+  margin-bottom: 100px;
+
+  &__img {
+    margin-bottom: 20px;
+  }
+}
+
+.p-checklist {
+  width: 684px;
+  height: 677px;
+  margin: 0 auto;
+  background-image: url("../img/check-list.png");
+  background-repeat: no-repeat;
+}
+
+.p-checkbox {
+  width: 600px;
+  float: right;
+  margin-top: 30px;
+
+  &__item {
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}

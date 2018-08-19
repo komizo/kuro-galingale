@@ -1,0 +1,582 @@
+.cf::after,
+.cf::before {
+  content: '';
+  display: block;
+  clear: both; }
+
+.link {
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+.txtsmall {
+  font-size: 16px; }
+
+.txt__green {
+  color: #006837; }
+
+.txtred {
+  color: red; }
+
+.txtlg {
+  font-size: 21px; }
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #66A900; }
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px; }
+
+.button1 {
+  margin: 20px 0; }
+
+.button2 {
+  float: right; }
+
+.p-mainimage {
+  text-align: center;
+  background-image: url("../img/bg.png"); }
+
+.p-photolist {
+  margin-bottom: 50px;
+  text-align: center; }
+
+.p-photolist_item {
+  display: inline-block; }
+
+.p-pickuparea {
+  background-image: url("../img/pickup-bg.png");
+  padding: 20px 0; }
+  .p-pickuparea__content {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center; }
+    .p-pickuparea__content__list {
+      font-size: 0; }
+    .p-pickuparea__content__thumb {
+      display: inline-block; }
+
+.p-aboutarea {
+  text-align: center;
+  background-image: url("../img/about-bg.png");
+  padding-bottom: 200px; }
+  .p-aboutarea__innerbox {
+    width: 982px;
+    margin: 0 auto;
+    position: relative; }
+  .p-aboutarea__txtbox {
+    background-image: url("../img/about-line1.png");
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    margin-top: -50px;
+    margin-bottom: 50px; }
+  .p-aboutarea__txtbox2 {
+    background-image: url("../img/about-line2.png");
+    background-repeat: no-repeat; }
+  .p-aboutarea__txtbox3 {
+    background-image: url("../img/about-line3.png");
+    background-repeat: no-repeat;
+    position: relative; }
+  .p-aboutarea__txt1, .p-aboutarea__txt2, .p-aboutarea__txt3 {
+    line-height: 35px;
+    text-align: left;
+    width: 520px;
+    font-size: 15.5px; }
+  .p-aboutarea__txt2 {
+    width: 513px;
+    float: right;
+    padding-top: 40px; }
+  .p-aboutarea__txt3 {
+    width: 520px;
+    float: left;
+    padding-top: 5px; }
+  .p-aboutarea__thumb1 {
+    position: absolute;
+    top: 340px;
+    left: 495px; }
+  .p-aboutarea__thumb2 {
+    float: left; }
+  .p-aboutarea__thumb3 {
+    position: absolute;
+    top: 0;
+    right: -30px; }
+  .p-aboutarea__img {
+    background-image: url("../img/about-line4.png");
+    background-position: 20px 50px;
+    background-repeat: no-repeat; }
+
+.p-profile {
+  background-image: url("../img/profile-bg.png");
+  background-repeat: no-repeat;
+  width: 979px;
+  height: 504px;
+  margin: 0 auto;
+  position: relative; }
+  .p-profile__list {
+    position: absolute;
+    top: 140px;
+    left: 60px; }
+    .p-profile__list__item {
+      color: #fff;
+      line-height: 35px;
+      font-size: 15px;
+      text-align: left; }
+    .p-profile__list__size {
+      width: 620px; }
+    .p-profile__list__size2 {
+      width: 840px; }
+
+.p-customerVoice {
+  text-align: center;
+  padding-bottom: 50px;
+  background-image: url("../img/bg2.png"); }
+  .p-customerVoice__title {
+    font-size: 40px;
+    color: #754C24;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 45px; }
+  .p-customerVoice__content {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-top: 10px solid #66A900;
+    box-sizing: border-box; }
+    .p-customerVoice__content:last-child {
+      border-bottom: 10px solid #66A900; }
+    .p-customerVoice__content__thumb {
+      float: right;
+      margin-left: 30px;
+      margin-bottom: 30px; }
+    .p-customerVoice__content__txt {
+      line-height: 30px;
+      text-align: left;
+      margin-bottom: 20px; }
+
+.p-coursearea {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("../img/course-bg.png"); }
+  .p-coursearea__content {
+    width: 981px;
+    height: 1367px;
+    margin: 0 auto;
+    background-image: url("../img/course-bgbox.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    text-align: center; }
+    .p-coursearea__content__item {
+      display: inline-block; }
+    .p-coursearea__content__right {
+      padding-top: 80px; }
+    .p-coursearea__content__txt {
+      font-size: 10px;
+      line-height: 15px;
+      width: 700px;
+      margin: 0 auto 10px;
+      text-align: left; }
+
+.course-contact {
+  border: 2px solid #B1BC83;
+  padding: 20px;
+  width: 650px; }
+
+.course-title {
+  color: #fff;
+  font-size: 30px;
+  background-color: #B1BC83;
+  text-align: center;
+  padding: 15px; }
+
+.one-delivery {
+  float: left; }
+
+.p-companystory {
+  background-image: url("../img/bg3.png");
+  padding: 150px;
+  text-align: center; }
+  .p-companystory__area {
+    width: 980px;
+    margin: 0 auto 50px;
+    padding-bottom: 50px;
+    background-color: #fff; }
+    .p-companystory__area__txt {
+      font-size: 16px;
+      line-height: 30px;
+      text-align: left;
+      margin-bottom: 20px; }
+    .p-companystory__area__txtbox {
+      margin: 0 50px 20px; }
+
+.p-story__img {
+  margin-top: -100px;
+  margin-bottom: 20px; }
+
+.p-st-photo1 {
+  float: right; }
+
+.p-st-photo2 {
+  float: left; }
+
+.p-sentence {
+  margin-bottom: 50px; }
+
+.p-worriesarea {
+  background-image: url("../img/bg4.png");
+  text-align: center;
+  margin-bottom: 100px; }
+  .p-worriesarea__img {
+    margin-bottom: 20px; }
+
+.p-checklist {
+  width: 684px;
+  height: 677px;
+  margin: 0 auto;
+  background-image: url("../img/check-list.png");
+  background-repeat: no-repeat; }
+
+.p-checkbox {
+  width: 600px;
+  float: right;
+  margin-top: 30px; }
+  .p-checkbox__item {
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: left; }
+
+.p-goldarrow {
+  text-align: center; }
+
+.p-down-arrow {
+  margin-bottom: -50px; }
+
+.p-middlettl {
+  text-align: center;
+  background-image: url("../img/middle-bg.png");
+  background-repeat: round;
+  padding-top: 50px;
+  padding-bottom: 100px; }
+
+.p-talkarea {
+  background-image: url("../img/talk.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 20px;
+  margin-top: -80px; }
+  .p-talkarea__txt {
+    font-size: 20px; }
+  .p-talkarea__content {
+    width: 929px;
+    height: 674px;
+    margin: 0 auto;
+    position: relative; }
+  .p-talkarea__talk1 {
+    position: absolute;
+    top: 55px;
+    left: 235px;
+    width: 400px;
+    line-height: 30px; }
+  .p-talkarea__talk2 {
+    position: absolute;
+    top: 230px;
+    left: 235px;
+    width: 450px;
+    line-height: 30px; }
+    .p-talkarea__talk2__txt {
+      font-size: 19px; }
+  .p-talkarea__talk3 {
+    position: absolute;
+    top: 475px;
+    left: 235px;
+    width: 450px;
+    line-height: 30px; }
+
+.p-breinarea {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.p-breintitle {
+  text-align: center;
+  color: #fff;
+  background-color: #66AA00;
+  padding: 20px 0;
+  font-size: 40px;
+  margin-bottom: 50px; }
+
+.p-breinitem {
+  display: inline-block; }
+
+.p-alztypearea {
+  text-align: center;
+  margin-bottom: 20px; }
+
+.p-alztypetitle {
+  text-align: center;
+  color: #fff;
+  background-color: #66AA00;
+  padding: 20px 0;
+  font-size: 40px;
+  margin-bottom: 50px; }
+
+.p-alzitem {
+  display: inline-block; }
+
+.p-alzfactorarea {
+  text-align: center;
+  margin-bottom: 20px;
+  background-image: url("../img/cause-bg.png");
+  background-repeat: round;
+  padding-bottom: 150px; }
+
+.p-alzfactortitle {
+  text-align: center;
+  color: #fff;
+  background-color: #66AA00;
+  padding: 20px 0;
+  font-size: 40px;
+  margin-bottom: 50px; }
+
+.p-alzfactorarea__box {
+  margin: 0 auto;
+  width: 850px; }
+  .p-alzfactorarea__box__list {
+    background-image: url("../img/alz-process.png");
+    background-repeat: no-repeat;
+    height: 360px;
+    position: relative; }
+  .p-alzfactorarea__box__txt, .p-alzfactorarea__box__txt2, .p-alzfactorarea__box__txt3, .p-alzfactorarea__box__txt4, .p-alzfactorarea__box__txt5, .p-alzfactorarea__box__txt6, .p-alzfactorarea__box__txt7 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 22px;
+    line-height: 30px; }
+  .p-alzfactorarea__box__txt2 {
+    top: 50px;
+    left: 210px; }
+  .p-alzfactorarea__box__txt3 {
+    top: 30px;
+    left: 362px; }
+  .p-alzfactorarea__box__txt4 {
+    top: 45px;
+    left: 555px; }
+  .p-alzfactorarea__box__txt5 {
+    top: 60px;
+    left: 745px; }
+  .p-alzfactorarea__box__txt6 {
+    top: 220px;
+    left: 725px; }
+  .p-alzfactorarea__box__txt7 {
+    top: 210px;
+    left: 550px; }
+  .p-alzfactorarea__box__txt8 {
+    position: absolute;
+    width: 510px;
+    top: 170px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left; }
+
+.p-alzabput {
+  background-image: url("../img/alz-about.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 706px;
+  height: 400px;
+  margin: 0 auto; }
+  .p-alzabput__title {
+    color: #fff;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px; }
+  .p-alzabput__txt {
+    padding: 10px 35px 20px;
+    line-height: 28px;
+    text-align: left; }
+
+.p-pointarea {
+  background-image: url("../img/kg-point-bg.png");
+  background-repeat: round;
+  padding-bottom: 100px;
+  text-align: center; }
+  .p-pointarea__img {
+    margin-top: -130px;
+    margin-bottom: 100px; }
+
+.p-kgarea {
+  background-color: #fff; }
+
+.p-kgarea__title {
+  color: #fff;
+  background-color: #8B6239;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 40px; }
+
+.p-kgareabox {
+  width: 980px;
+  margin: 0 auto; }
+  .p-kgareabox__inner {
+    float: left;
+    width: 560px;
+    padding-top: 40px; }
+    .p-kgareabox__inner__subtitle {
+      color: #603813;
+      font-size: 28px;
+      line-height: 60px;
+      font-weight: bold; }
+    .p-kgareabox__inner__txt {
+      font-size: 15px;
+      line-height: 25px; }
+  .p-kgareabox__img {
+    float: right; }
+
+.p-spgarea {
+  background-image: url("../img/spg-bg.png");
+  background-repeat: round;
+  padding-bottom: 100px; }
+  .p-spgarea__title {
+    text-align: center;
+    background-color: #C0272D;
+    padding: 25px; }
+
+.p-spgareabox {
+  width: 980px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 0; }
+  .p-spgareabox__item {
+    width: 834px;
+    height: 310px;
+    margin: 0 auto; }
+  .p-spgareabox__inner {
+    float: left;
+    width: 550px;
+    margin: 20px 20px 20px 30px; }
+    .p-spgareabox__inner__txt {
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 20px; }
+    .p-spgareabox__inner__img {
+      float: right; }
+
+.p-factoryarea {
+  background-image: url("../img/factory-bg.png");
+  text-align: center;
+  padding-bottom: 100px;
+  background-repeat: round; }
+  .p-factoryarea__title__img {
+    margin-top: -20px; }
+  .p-factoryarea__content {
+    width: 940px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative; }
+    .p-factoryarea__content__pass {
+      position: absolute; }
+      .p-factoryarea__content__pass__img {
+        margin-top: -40px; }
+    .p-factoryarea__content__process {
+      width: 709px;
+      height: 288px;
+      float: right;
+      background-image: url("../img/factory-process.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 20px;
+      right: 10px; }
+    .p-factoryarea__content__txt {
+      width: 700px;
+      position: absolute;
+      top: 200px;
+      left: 5px;
+      font-size: 12px;
+      text-align: left;
+      line-height: 20px; }
+
+.p-usergide__content {
+  background-image: url("../img/eat-kg.png");
+  background-repeat: no-repeat;
+  width: 945px;
+  height: 220px;
+  margin: 50px auto;
+  position: relative; }
+
+.p-usergide__txt {
+  font-size: 14px;
+  line-height: 23px;
+  position: absolute;
+  top: 75px;
+  left: 130px;
+  width: 390px; }
+
+.p-messagearea {
+  background-image: url("../img/bg2.png");
+  text-align: center; }
+
+.p-messagebox {
+  width: 980px;
+  margin: 0 auto;
+  font-size: 0; }
+  .p-messagebox__inner {
+    position: absolute;
+    top: 200px;
+    left: 25px; }
+  .p-messagebox__txt {
+    width: 430px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14.5px;
+    margin-bottom: 20px; }
+  .p-messagebox__item, .p-messagebox__item1, .p-messagebox__item2, .p-messagebox__item3, .p-messagebox__item4 {
+    width: 475px;
+    height: 490px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 50px; }
+  .p-messagebox__item1 {
+    background-image: url("../img/about-message1.png");
+    background-repeat: no-repeat;
+    margin-right: 30px; }
+  .p-messagebox__item2 {
+    background-image: url("../img/about-message2.png");
+    background-repeat: no-repeat; }
+  .p-messagebox__item3 {
+    background-image: url("../img/about-message3.png");
+    background-repeat: no-repeat;
+    margin-right: 30px; }
+  .p-messagebox__item4 {
+    background-image: url("../img/about-message4.png");
+    background-repeat: no-repeat; }
+
+.p-qaarea {
+  background-image: url("../img/q&a-bg.png");
+  background-repeat: round;
+  padding: 80px 0; }
+  .p-qaarea__content {
+    width: 845px;
+    height: 630px;
+    margin: 80px auto;
+    background-image: url("../img/qa-body.png");
+    position: relative; }
+    .p-qaarea__content__list {
+      position: absolute;
+      top: 150px;
+      left: 40px;
+      width: 760px; }
+    .p-qaarea__content__list__tiele {
+      color: #8B6239;
+      font-size: 25px;
+      line-height: 35px;
+      margin: 10px 0 5px; }
+    .p-qaarea__content__list__txt {
+      line-height: 30px; }

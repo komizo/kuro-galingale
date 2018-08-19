@@ -1,0 +1,30 @@
+.cf::after,
+.cf::before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.txtsmall {
+  font-size: 16px;
+}
+
+.txt__green {
+  color: #006837;
+}
+
+.txtred {
+  color: red;
+}
+
+.txtlg {
+  font-size: 21px;
+}

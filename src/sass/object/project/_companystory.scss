@@ -1,0 +1,42 @@
+.p-companystory {
+  background-image: url("../img/bg3.png");
+  padding: 150px;
+  text-align: center;
+
+  &__area {
+    width: 980px;
+    margin: 0 auto 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+
+    &__txt {
+      font-size: 16px;
+      line-height: 30px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    &__txtbox {
+      // padding: 0 50px;
+      margin: 0 50px 20px;
+      // margin-bottom: 20px;
+    }
+  }
+}
+
+.p-story__img {
+  margin-top: -100px;
+  margin-bottom: 20px;
+}
+
+.p-st-photo1 {
+  float: right;
+}
+
+.p-st-photo2 {
+  float: left;
+}
+
+.p-sentence {
+  margin-bottom: 50px;
+}

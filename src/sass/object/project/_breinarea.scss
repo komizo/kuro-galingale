@@ -1,0 +1,12 @@
+
+.p-breinarea {
+  @include alzarea();
+}
+
+.p-breintitle {
+  @include alzttl();
+}
+
+.p-breinitem {
+  @include alzitem();
+}
